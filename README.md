@@ -4,7 +4,7 @@
 
 ## โครงสร้างไฟล์
 
-
+```text
 my-business-web<br>
 ├── index.html<br>
 ├── about.html<br>
@@ -20,25 +20,23 @@ my-business-web<br>
 │ └── Service.png<br>
 |<br>
 └── README.md<br>
+```
 
 ## รูปหน้าจอทั้งหมด
 
 ### 1. หน้าแรก
-
 ![รูปหน้าแรก](images/Index.png)
 
 ### 2. เกี่ยวกับเรา
-
 ![รูปหน้าข้อมูลเกี่ยวกับเรา](images/About.png)
 
 ### 3. การบริการ
-
 ![รูปหน้าการบริการ](images/Service.png)
 
 ### 4. ช่องทางติดต่อ
-
 ![รูปหน้าช่องทางการติดต่อ](images/Contact.png)
 
+## ลิงค์เข้าสู่หน้าต่าง
 -[หน้าแรก](index.html) \
 -[เกี่ยวกับเรา](about.html) \
 -[บริการจากเรา](services.html) \
