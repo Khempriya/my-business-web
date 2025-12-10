@@ -5,21 +5,21 @@
 ## โครงสร้างไฟล์
 
 ```text
-my-business-web<br>
-├── index.html<br>
-├── about.html<br>
-├── services.html<br>
-├── contact.html<br>
+my-business-web
+├── index.html
+├── about.html
+├── services.html
+├── contact.html
 ├── images<br>
-│ ├── Admin.png<br>
-│ ├── Food For You.png<br>
-│ ├── Welcome.png<br>
-│ ├── Admin.png<br>
-│ ├── Contact.png<br>
-│ ├── Index.png<br>
-│ └── Service.png<br>
-|<br>
-└── README.md<br>
+│ ├── Admin.png
+│ ├── Food For You.png
+│ ├── Welcome.png
+│ ├── Admin.png
+│ ├── Contact.png
+│ ├── Index.png
+│ └── Service.png
+|
+└── README.md
 ```
 
 ## รูปหน้าจอทั้งหมด
@@ -28,7 +28,7 @@ my-business-web<br>
 ![รูปหน้าแรก](images/Index.png)
 
 ### 2. เกี่ยวกับเรา
-![รูปหน้าข้อมูลเกี่ยวกับเรา](images/About.png)
+![รูปหน้าข้อมูลเกี่ยวกับเรา](images/Admin.png)  
 
 ### 3. การบริการ
 ![รูปหน้าการบริการ](images/Service.png)
