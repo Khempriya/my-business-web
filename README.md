@@ -5,41 +5,45 @@
 ## โครงสร้างไฟล์
 
 text
-my-business-web/
-├── index.html/
-├── about.html/
-├── services.html/
-├── contact.html/
-├── images/
-│ ├── Admin.png/
-│ ├── Food For You.png/
-│ ├── Welcome.png/
-│ ├── Admin.png/
-│ ├── Contact.png/
-│ ├── Index.png/
-│ └── Service.png/
-|
-└── README.md/
+my-business-web</br>
+├── index.html</br>
+├── about.html</br>
+├── services.html</br>
+├── contact.html</br>
+├── images</br>
+│ ├── Admin.png</br>
+│ ├── Food For You.png</br>
+│ ├── Welcome.png</br>
+│ ├── Admin.png</br>
+│ ├── Contact.png</br>
+│ ├── Index.png</br>
+│ └── Service.png</br>
+|</br>
+└── README.md</br>
 
 ## รูปหน้าจอทั้งหมด
 
 ### 1. หน้าแรก
 
-![รูปหน้าแรก](images/Index.png)
+<image
+      src="image/Index.png"
+    />
 
 ### 2. เกี่ยวกับเรา
 
-![รูปหน้าข้อมูลเกี่ยวกับเรา](images/About.png)
+<image
+      src="image/About.png"
+    />
 
 ### 3. การบริการ
 
-![รูปหน้าการบริการ](images/Service.png)
+![รูปหน้าการบริการ](image/Service.png)
 
 ### 4. ช่องทางติดต่อ
 
-![รูปหน้าช่องทางการติดต่อ](images/Contact.png)
+![รูปหน้าช่องทางการติดต่อ](image/Contact.png)
 
--[หน้าแรก](index.html) \
--[เกี่ยวกับเรา](about.html) \
--[บริการจากเรา](services.html) \
--[ต่อต่อเรา](contact.html)
+-[หน้าแรก](index.html) </br> 
+-[เกี่ยวกับเรา](about.html) </br> 
+-[บริการจากเรา](services.html) </br> 
+-[ต่อต่อเรา](contact.html) </br>
