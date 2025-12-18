@@ -43,4 +43,11 @@ my-business-web</br>
 
 ![รูปหน้าช่องทางการติดต่อ](image/Contact.png)
 
+<<<<<<< HEAD
 -[หน้าแรก](index.html) </br> -[เกี่ยวกับเรา](about.html) </br> -[บริการจากเรา](services.html) </br> -[ต่อต่อเรา](contact.html) </br>
+=======
+-[หน้าแรก](index.html) </br> 
+-[เกี่ยวกับเรา](about.html) </br> 
+-[บริการจากเรา](services.html) </br> 
+-[ต่อต่อเรา](contact.html) </br>
+>>>>>>> 73a9ae52811fd4ba5b263220307053cbb5000f64
