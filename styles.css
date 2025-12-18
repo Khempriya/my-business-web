@@ -59,9 +59,28 @@ a hover {
   margin: 0 auto;
 }
 .section {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(90deg, #fffaf2 0%, #dabda1 100%);
+  color: rgb(255, 255, 255);
+  padding: 4rem 2rem;
+  text-align: center;
+  min-height: 400px;
+}
+.sections {
   padding: 2rem 2rem;
   margin: 0 auto;
 }
+.section a {
+  font-size: 1.2rem;
+  margin-bottom: 2rem;
+  color: #333;
+  line-height: 1.6;
+  opacity: 0.9;
+}
+
 .section ul {
   padding: 0.3rem 1rem;
 }
@@ -126,7 +145,7 @@ nav {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  background: linear-gradient(90deg, #fffaf2 0%, #f5ebd9 100%);
+  background: linear-gradient(90deg, #fffaf2 0%, #e0bc7a 100%);
   color: rgb(255, 255, 255);
   padding: 4rem 2rem;
   text-align: center;
@@ -246,3 +265,52 @@ nav {
 }
 
 /* <!-- About ME --> */
+.team-section {
+  padding: 2rem 2rem;
+}
+.team-grid {
+  display: flex;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 30px;
+  margin-top: 2rem;
+}
+.team-member {
+  background: #f3e7e0;
+  padding: 1.5rem;
+  border-radius: 10%;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  transition: transform 0.5;
+  border: 1px solid white;
+}
+.team-member:hover {
+  transform: translateY(-5px);
+}
+.team-member img {
+  width: 60%;
+  margin-bottom: 1rem;
+}
+.team-member figcaption strong {
+  color: #752930;
+}
+.contact-section {
+  margin: 1rem;
+}
+.contact-section h1 {
+  margin-bottom: 0px;
+}
+.contact-section p {
+  margin-bottom: center;
+}
+.form {
+  display: flex;
+  flex-direction: colum;
+  gap: 15px;
+}
+.form-group label {
+  display: block;
+  font-weight: 600;
+  margin-bottom: 8px;
+  color: #656645;
+}
