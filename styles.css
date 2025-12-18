@@ -3,6 +3,9 @@
   padding: 0;
   box-sizing: border-box;
 }
+html {
+  font-size: 16px;
+}
 body {
   font-family: "Times New Roman", Times, serif;
   line-height: 1.6;
@@ -16,6 +19,7 @@ h1 {
   line-height: 1.2;
   margin-bottom: 20px;
   margin-top: 20px;
+  text-transform: uppercase;
 }
 h2 {
   font-size: 3em;
@@ -49,6 +53,35 @@ a hover {
   color: #8a895f;
   text-decoration: underline;
 }
+/*==========*/
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+.section {
+  padding: 2rem 2rem;
+  margin: 0 auto;
+}
+.section ul {
+  padding: 0.3rem 1rem;
+}
+.section-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  max-width: 3rem 0;
+}
+.main-container {
+  display: flex;
+  gap: 2rem;
+  max-width: 3rem 0;
+}
+.sidebar {
+  flex: 0 0 250px;
+}
+.articles {
+  flex: 1;
+}
+/*===========*/
 #header {
   display: flex;
   justify-content: space-between;
@@ -62,8 +95,7 @@ a hover {
 }
 .logo {
   color: #fcf7ef;
-  font-size: 1.5rem;
-  font-weight: bold;
+  font-size: 1.8rem;
 }
 nav {
   display: flex;
@@ -116,10 +148,11 @@ nav {
   color: #818263;
   padding: 0.5rem 1rem;
   border: none;
-  border-radius: 5%;
+  border-radius: 10%;
   font-size: 1rem;
+  box-shadow: 0 2px rgba(0, 0, 0, 0.1);
   cursor: pointer;
-  transition: 0.3s;
+  transition: background 0.3s;
 }
 .hero-btn:hover {
   background: #7b2e35;
@@ -189,4 +222,27 @@ nav {
   list-style: none;
   text-align: left;
 }
+.back-to-top {
+  position: sticky;
+  top: 80%;
+  left: 90%;
+  bottom: 20px;
+  right: 20px;
+  background-color: #a5655f;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.6rem;
+  z-index: 101;
+}
+.back-to-top:hover {
+  background: #7b2e35;
+  color: #fffaf2;
+  transform: translateY(-5px);
+  box-shadow: 0 5px 15px rgba(90, 89, 89, 0.196);
+}
+
 /* <!-- About ME --> */
