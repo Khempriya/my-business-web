@@ -1,24 +1,25 @@
-#Food For You - เว็บไซต์แนะนำเมนูอาหารในชีวิตประจำวัน
+# Food For You - เว็บไซต์แนะนำเมนูอาหารในชีวิตประจำวัน
 
-**Food For You** คือ เว็บแนะนำเมนูอาหารอัจฉริยะที่ช่วยให้เลือกเมนูได้ง่ายขึ้น โดยวิเคราะห์ความชอบของผู้ใช้ อากาศ อารมณ์ พร้อมฟีเจอร์วางแผนมื้ออาหาร วิเคราะห์โภชนาการ คำนวณงบประมาณ และค้นหาเมนูแบบละเอียด ทำให้การกินสะดวกและตอบโจทย์ไลฟ์สไตล์มากขึ้น
+**Food For You**. คือ เว็บแนะนำเมนูอาหารอัจฉริยะที่ช่วยให้เลือกเมนูได้ง่ายขึ้น โดยวิเคราะห์ความชอบของผู้ใช้ อากาศ อารมณ์ พร้อมฟีเจอร์วางแผนมื้ออาหาร วิเคราะห์โภชนาการ คำนวณงบประมาณ และค้นหาเมนูแบบละเอียด ทำให้การกินสะดวกและตอบโจทย์ไลฟ์สไตล์มากขึ้น
 
 ## โครงสร้างไฟล์
 
-my-business-web
-├── index.html
-├── about.html
-├── services.html
-├── contact.html
+text
+my-business-web/
+├── index.html/
+├── about.html/
+├── services.html/
+├── contact.html/
 ├── images/
-│ ├── Admin.png
-│ ├── Food For You.png
-│ ├── Welcome.png
-│ ├── Admin.png
-│ ├── Contact.png
-│ ├── Index.png
-│ └── Service.png
+│ ├── Admin.png/
+│ ├── Food For You.png/
+│ ├── Welcome.png/
+│ ├── Admin.png/
+│ ├── Contact.png/
+│ ├── Index.png/
+│ └── Service.png/
 |
-└── README.md
+└── README.md/
 
 ## รูปหน้าจอทั้งหมด
 
@@ -38,4 +39,7 @@ my-business-web
 
 ![รูปหน้าช่องทางการติดต่อ](images/Contact.png)
 
--[หน้าแรก](index.html) -[เกี่ยวกับเรา](about.html) -[บริการจากเรา](services.html) -[ต่อต่อเรา](contact.html)
+-[หน้าแรก](index.html) \
+-[เกี่ยวกับเรา](about.html) \
+-[บริการจากเรา](services.html) \
+-[ต่อต่อเรา](contact.html)
