@@ -60,12 +60,20 @@ nav {
   opacity: 0.9;
 }
 .hero-btn {
-  background: #f39c12;
-  color: white;
-  padding: 0.8rem 2rem;
+  background: #faeedb;
+  color: rgba(63, 33, 15, 0.814);
+  padding: 0.5rem 1rem;
   border: none;
   border-radius: 5px;
   font-size: 1rem;
   cursor: pointer;
   transition: 0.3s;
+}
+.hero-btn:hover {
+  background: #edb88ae7;
+}
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 2rem;
 }
