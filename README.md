@@ -10,6 +10,8 @@ my-business-web</br>
 ├── about.html</br>
 ├── services.html</br>
 ├── contact.html</br>
+├── css</br>
+│ └── styles.css</br>
 ├── images</br>
 │ ├── Admin.png</br>
 │ ├── Food For You.png</br>
@@ -17,9 +19,19 @@ my-business-web</br>
 │ ├── Admin.png</br>
 │ ├── Contact.png</br>
 │ ├── Index.png</br>
-│ └── Service.png</br>
+│ ├── Service.png</br>
+│ ├── ceo.png </br>
+│ ├── admins.png </br>
+│ ├── programmer.png </br>
+│ ├── New index v.2.png </br>
+│ ├── New about v.2.png </br>
+│ ├── New service v.2.png </br>
+│ └── New contact v.2.png </br>
 |</br>
-└── README.md</br>
+│</br>
+|</br>
+├── README.md</br>
+└── .gitignore</br>
 
 ## รูปหน้าจอทั้งหมด
 
@@ -29,25 +41,40 @@ my-business-web</br>
       src="image/Index.png"
     />
 
+#### New
+
+<image
+      src="image/New index v.2.png"
+    />
+
 ### 2. เกี่ยวกับเรา
 
 <image
       src="image/About.png"
     />
 
+#### New
+
+<image
+      src="image/New about v.2.png"
+    />
+
 ### 3. การบริการ
 
 ![รูปหน้าการบริการ](image/Service.png)
+
+#### New
+
+<image
+      src="image/New service v.2.png"
+    />
 
 ### 4. ช่องทางติดต่อ
 
 ![รูปหน้าช่องทางการติดต่อ](image/Contact.png)
 
-<<<<<<< HEAD
--[หน้าแรก](index.html) </br> -[เกี่ยวกับเรา](about.html) </br> -[บริการจากเรา](services.html) </br> -[ต่อต่อเรา](contact.html) </br>
-=======
--[หน้าแรก](index.html) </br> 
--[เกี่ยวกับเรา](about.html) </br> 
--[บริการจากเรา](services.html) </br> 
--[ต่อต่อเรา](contact.html) </br>
->>>>>>> 73a9ae52811fd4ba5b263220307053cbb5000f64
+#### New
+
+<image
+      src="image/New contact v.2.png"
+    /> -[หน้าแรก](index.html) </br> -[เกี่ยวกับเรา](about.html) </br> -[บริการจากเรา](services.html) </br> -[ต่อต่อเรา](contact.html) </br>
