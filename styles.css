@@ -92,7 +92,6 @@ a hover {
 .main-container {
   display: flex;
   gap: 2rem;
-  max-width: 3rem 0;
 }
 .sidebar {
   flex: 0 0 250px;
@@ -378,11 +377,6 @@ nav {
 .services h1 {
   color: #752930;
 }
-.service-container {
-  max-width: 1200px;
-  margin: 0 auto;
-  padding: 2rem;
-}
 
 .articles-grid {
   display: flex;
@@ -434,40 +428,40 @@ nav {
   color: #9f9f75;
 }
 /**/
-.service-containerv {
+.service-container {
   max-width: 1200px;
   margin: 0 auto;
   padding: 2rem;
 }
-.main-container {
-  flex-direction: column;
-}
-.sidebarv {
+.sidebar {
   flex: 0 0 250px;
 }
-.sidebarv-box {
+.sidebar-box {
   border: 1px solid #9f9f75;
   padding: 1.5rem;
   border-radius: 8px;
   margin-bottom: 1.5rem;
   padding-top: 0.5rem;
+  position: sticky;
+  top: 120px;
 }
-.sidebarv-box h3 {
+
+.sidebar-box h3 {
   color: #752930;
   margin-bottom: 1rem;
   border-bottom: 2px solid #656645;
   padding-bottom: 0.5rem;
 }
-.sidebarv-box ul {
+.sidebar-box ul {
   list-style: none;
 }
-.sidebarv-box ul li {
+.sidebar-box ul li {
   padding: 0.5rem 0;
 }
-.sidebarv-box a {
+.sidebar-box a {
   color: #752930;
 }
-.sidebarv-box a:hover {
+.sidebar-box a:hover {
   text-decoration: underline;
 }
 .articles-grid {
