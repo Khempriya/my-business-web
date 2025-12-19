@@ -300,9 +300,32 @@ nav {
 .sections p {
   color: #818263;
 }
-/**/
-.contact-section {
-  margin: 1rem;
+/*==========*/
+.contact h1 {
+  font-size: 3rem;
+  color: #752930;
+  border-bottom: 2px solid #333;
+}
+.contact legend {
+  font-size: 1.6rem;
+  color: #333;
+}
+.contact button {
+  background: #fffaf2;
+  color: #752935;
+  padding: 0.5rem 1rem;
+  border: none;
+  border-radius: 10%;
+  font-size: 1rem;
+  box-shadow: 0 2px rgba(0, 0, 0, 0.1);
+  cursor: pointer;
+  transition: background 0.3s;
+}
+.contact button:hover {
+  background: #7b2e35;
+  color: #fffaf2;
+  transform: translateY(-5px);
+  box-shadow: 0 5px 15px rgba(90, 89, 89, 0.196);
 }
 .contact-section h1 {
   margin-bottom: 0px;
@@ -310,6 +333,7 @@ nav {
 .contact-section p {
   margin-bottom: center;
 }
+
 .form {
   display: flex;
   flex-direction: colum;
@@ -319,5 +343,16 @@ nav {
   display: block;
   font-weight: 600;
   margin-bottom: 8px;
-  color: #656645;
+  color: #752930;
+}
+.form-group input,
+.form-group textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #752935;
+  font-size: 1.2rem;
+}
+.form-group input:focus,
+.form-group textarea:focus {
+  border-color: #752930;
 }
