@@ -356,3 +356,15 @@ nav {
 .form-group textarea:focus {
   border-color: #752930;
 }
+.address h2 {
+  font-size: 2rem;
+  padding: 2%;
+}
+.address p {
+  font-size: 1.3rem;
+  padding: 1%;
+}
+.address iframe {
+  display: flex;
+  padding: 2%;
+}
