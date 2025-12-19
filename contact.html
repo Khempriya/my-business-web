@@ -4,30 +4,43 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Food For You</title>
+    <link rel="stylesheet" href="styles.css" />
   </head>
   <body>
-      <image
-      src="image/Food For You.png"
-      alt="Food For You"
-      style="width: 100%"
-    />
-    <h1>ช่องทางการติดต่อเรา Food For You</h1>
+   <header id="top"></header>
+  <nav id="header">
+    <div class="logo">Food For You 🍽</div>
+    <ul class="nav-links">
+      <li><a href="index.html">หน้าแรก</a></li>
+      <li><a href="about.html">เกี่ยวกับเรา</a></li>
+      <li><a href="services.html">บริการ</a></li>
+      <li><a href="contact.html">ติดต่อ</a></li>
+    </ul>
+  </nav>
+  <body class="contact">
+    <h1 >ช่องทางการติดต่อเรา Food For You</h1>
+    <section class="container">
     <form action="/register" method="POST">
-        <fieldset>
          <legend>ข้อมูลส่วนตัว</legend>
+         <div class="form-group">
          <label for="fname">ชื่อจริง:</label>
          <input type="text" id="fname" name="firstname" required />
+         </div>
+         <div class="form-group">
          <label for="lname">นามสกุล:</label>
          <input type="text" id="lname" name="lastname" required /><br />
+         </div>
+         <div class="form-group">
          <label for="email">อีเมล:</label>
          <input type="email" id="email" name="email" required /><br />
-
+        </div>
+         <div class="form-group">
          <label for="message">ข้อมูลเพิ่มเติม:</label><br />
-         <textarea name="" id=""></textarea><br />
+        </div>
          <button type="submit">ส่งข้อมูล</button>
          <button type="reset">ยกเลิก</button>
-        </fieldset>
     </form>
+    </section>
     <section>
         <h2>บริษัท ฟู้ด ฟอร์ ยู จำกัด<br /></h2>
           <p> มหาวิทยลัยบูรพา, ถนน ลงหาดบางแสน, ตำบลแสนสุข, อำเภอเมืองชลบุรี, ตำบลแสนสุข, อำเภอเมืองชลบุรี, จังหวัดชลบุรี, 20131</p>
@@ -36,8 +49,12 @@
         <h2>แผนที่การเดินทาง</h2>
         <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3883.0320048062777!2d100.92300467455142!3d13.285940607909788!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3102b4e7c351968b%3A0xf03d84bc0dd30c0!2sBurapha%20University!5e0!3m2!1sen!2sth!4v1765316107569!5m2!1sen!2sth" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
     </section>
-    <footer>
-      <p>&copy; 2025 FOOD FOR YOU.</p>
+      <a href="#top" class="back-to-top">↥</a>
+  <footer id="footer">
+    <hr />
+    <p>ติดต่อ:67160388@go.buu.ac.th | เบอร์: 0625219596</p>
+    <p>&copy; 2025 FOOD FOR YOU.สงวนลิขสิทธ</p>
+    <hr />
         <nav>
             <ul>
             <li><a href="index.html">หน้าแรก</a></li>
