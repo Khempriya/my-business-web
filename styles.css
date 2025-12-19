@@ -63,7 +63,7 @@ a hover {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  background: linear-gradient(90deg, #fffaf2 0%, #dabda1 100%);
+  background: linear-gradient(180deg, #fffaf2 0%, #d2cca6 100%);
   color: rgb(255, 255, 255);
   padding: 4rem 2rem;
   text-align: center;
@@ -149,7 +149,7 @@ nav {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  background: linear-gradient(90deg, #fffaf2 0%, #e0bc7a 100%);
+  background: linear-gradient(90deg, #fffaf2 0%, #ffffff 50%, #f0d5a4 100%);
   color: rgb(255, 255, 255);
   padding: 4rem 2rem;
   text-align: center;
@@ -240,7 +240,7 @@ nav {
 #footer a {
   font-size: 1rem;
   margin: 0.5rem;
-  color: #ffffff;
+  color: #752930;
   list-style: none;
 }
 #footer ul {
@@ -309,7 +309,7 @@ nav {
 /*==========*/
 .contact h1 {
   font-size: 3rem;
-  color: #752930;
+  color: #4f5039;
   border-bottom: 2px solid #333;
 }
 .contact legend {
@@ -433,6 +433,9 @@ nav {
   margin: 0 auto;
   padding: 2rem;
 }
+.service-container h1 {
+  color: #4f5039;
+}
 .sidebar {
   flex: 0 0 250px;
 }
@@ -459,7 +462,7 @@ nav {
   padding: 0.5rem 0;
 }
 .sidebar-box a {
-  color: #752930;
+  color: #333;
 }
 .sidebar-box a:hover {
   text-decoration: underline;
